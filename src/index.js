@@ -3,6 +3,7 @@ console.log("This is a test");
 
 function addComponent() {
     const content = document.getElementById("content");
+    content.classList.add("content");
     
     // Create layout
     const header = document.createElement("nav");
