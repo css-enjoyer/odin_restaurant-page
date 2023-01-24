@@ -1,10 +1,11 @@
 console.log("This is a test");
 
+import './style.css';
 
 function addComponent() {
     const content = document.getElementById("content");
     content.classList.add("content");
-    
+
     // Create layout
     const header = document.createElement("nav");
     const hero = document.createElement("div");
