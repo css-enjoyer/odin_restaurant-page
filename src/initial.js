@@ -8,7 +8,9 @@ function addComponent() {
     navbar.classList.add("navbar");
     content.appendChild(navbar);
 
-
+    const main = document.createElement("div");
+    main.classList.add("main");
+    content.appendChild(main);
 };
 
 addComponent();
