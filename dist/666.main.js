@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkodin_restaurant=self.webpackChunkodin_restaurant||[]).push([[666],{666:(n,e,t)=>{function o(){const n=document.createElement("div");n.classList.add("main"),content.appendChild(n);const e=document.createElement("h1");return e.innerHTML="Savory Spoon",n.appendChild(e),n}t.r(e),t.d(e,{addComponent:()=>o}),console.log("home.js")}}]);

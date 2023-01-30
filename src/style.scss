@@ -6,7 +6,7 @@
     --tertiary-color: #9B111; 
     --text-color: #202020;  
     --background-color: #f3f1f1;
-    --accent-color: #F8D1CC; 
+    --accent-color: #e9a8a0; 
     --header-font: "Merriweather", sans-serif;
     --p-font: "Raleway", sans-serif;
 }
@@ -43,6 +43,7 @@
     .main {
         background-color: var(--accent-color);
         height: 70vh;
+        min-height: min-content;
         width: 60vw;
         margin-top: 20px;
     }
