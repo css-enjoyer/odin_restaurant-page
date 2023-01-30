@@ -1,0 +1,1 @@
+(self.webpackChunkodin_restaurant=self.webpackChunkodin_restaurant||[]).push([[83],{83:()=>{console.log("menu.js"),function(){const n=document.createElement("div");n.classList.add("main"),content.appendChild(n);const e=document.createElement("h1");e.innerHTML="Menu",n.appendChild(e)}()}}]);
