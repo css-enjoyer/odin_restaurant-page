@@ -8,6 +8,10 @@ export function menuDisplay() {
     const title = document.createElement("h1");
     title.innerHTML = "Menu";
     main.appendChild(title);
+
+    let food = document.createElement("p");
+    food.innerHTML = "none."
+    main.appendChild(food);
     
     return main;
 };

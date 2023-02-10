@@ -14,7 +14,7 @@ function addComponent() {
     document.body.appendChild(navbar);
 
     let logo = document.createElement("img");
-    logo.src = "/images/logo_trns.png";
+    logo.src = "../src/images/logo_trns.png";
     navbar.appendChild(logo);
 
     const homeLink = document.createElement("a");
