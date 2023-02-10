@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Raleway:wght@200;500&display=swap");
 :root {
-  --primary-color: #F28E1C;
-  --secondary-color: #F5A623;
-  --tertiary-color: #9B111;
-  --text-color: #202020;
-  --background-color: #f3f1f1;
-  --accent-color: #e9a8a0;
+  --header-color: black;
+  --p-color: white;
+  --button-color: #B19065;
+  --background-color: #1B1918;
+  --background-secondary-color: #2F2B27;
+  --accent-color: #B3A38F;
   --header-font: "Merriweather", sans-serif;
   --p-font: "Raleway", sans-serif;
 }
@@ -25,7 +25,7 @@ body {
   place-items: center;
 }
 body .navbar {
-  height: 45px;
+  height: 55px;
   width: 100%;
   background-color: var(--accent-color);
   position: fixed;
@@ -46,8 +46,11 @@ body .main {
   height: 70vh;
   min-height: -moz-min-content;
   min-height: min-content;
-  width: 60vw;
+  width: 80vw;
   margin-top: 20px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 500px) {

@@ -13,12 +13,19 @@ function addComponent() {
     navbar.classList.add("navbar");
     document.body.appendChild(navbar);
 
+    let logo = document.createElement("img");
+    logo.src = "/images/logo_trns.png";
+    navbar.appendChild(logo);
+
     const homeLink = document.createElement("a");
     const menuLink = document.createElement("a");
     const aboutLink = document.createElement("a");
     homeLink.innerHTML = "Home";
     menuLink.innerHTML = "Menu";
     aboutLink.innerHTML = "About Us";
+
+    // Display home initially
+    homeDisplay();
 
     homeLink.addEventListener("click", () => {
         content.innerHTML = "";
