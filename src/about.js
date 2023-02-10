@@ -1,6 +1,6 @@
 console.log("about.js");
 
-function addComponent() {
+export function aboutDisplay() {
     const main = document.createElement("div");
     main.classList.add("main");
     content.appendChild(main);

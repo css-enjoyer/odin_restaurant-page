@@ -1,6 +1,6 @@
 console.log("menu.js");
 
-function addComponent() {
+export function menuDisplay() {
     const main = document.createElement("div");
     main.classList.add("main");
     content.appendChild(main);
@@ -11,5 +11,3 @@ function addComponent() {
     
     return main;
 };
-
-addComponent();
